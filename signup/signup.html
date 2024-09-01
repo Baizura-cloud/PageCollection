@@ -2,9 +2,53 @@
 <html>
   <head>
     <title>Sign In</title>
-    
+    <script
+      src="https://kit.fontawesome.com/e71c4ca877.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <link rel="stylesheet" href="login.css" />
+  <link rel="stylesheet" href="signup.css" />
   <body>
-</body>
+    <div class="box">
+      <h2>Sign Up</h2>
+      <form action="/action_page.php">
+        <input
+          class="textField"
+          type="text"
+          id="email"
+          name="email"
+          placeholder="Email"
+        />
+        <input
+          class="textField"
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Create Password"
+        />
+        <input
+          class="textField"
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Confirm Password"
+        />
+        
+        <input class="button" type="submit" value="Submit" />
+        <p>
+          Already have an account?
+          <a href="https://www.w3schools.com/" target="_blank">Login</a>
+        </p>
+      </form>
+      <span class="line">Or</span>
+      <button name="googleL" class="button google">
+        <i class="fa-brands fa-google"></i>
+        Login with Google
+      </button>
+      <button name="facebookL" class="button facebook">
+        <i class="fa-brands fa-facebook"></i>
+        Login with Facebook
+      </button>
+    </div>
+  </body>
 </html>

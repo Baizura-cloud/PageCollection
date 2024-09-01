@@ -1,6 +1,82 @@
 body {
-    background-image: linear-gradient(rgb(2, 140, 194), rgb(3, 128, 128));
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
+  background-image: linear-gradient(rgb(2, 140, 194), rgb(3, 128, 128));
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.button {
+  float: none;
+  box-sizing: border-box;
+  border-width: 0px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgb(17, 164, 190);
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  margin: 10px;
+}
+.button.google{
+  background-color: rgb(246, 248, 248);
+}
+.button.facebook{
+  background-color: rgb(84, 75, 207);
+  color: antiquewhite;
+  
+}
+.box {
+  background-color: rgb(255, 254, 254);
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+
+  height: auto;
+  width: 500px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.textField {
+  box-sizing: border-box;
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+  font-size: 16px;
+}
+.line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid #ccc; /* Adjust the border style as needed */
+  font-size: small;
+  margin: 10px;
+}
+a:not(:hover) {
+  text-decoration: none;
+  color: #000; /* Replace #000 with your desired color */
+}
+.column.left {
+  float: left;
+  width: 49%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  text-align: start;
+  
+}
+.column.right {
+  float: left;
+  width: 49%;
+  text-align: end;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
