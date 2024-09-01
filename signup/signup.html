@@ -2,13 +2,13 @@
 <html>
   <head>
     <title>Sign Up</title>
-   
+    <link rel="stylesheet" href="signup.css" />
+    <script src="signup.js"></script>
   </head>
-  <link rel="stylesheet" href="signup.css" />
   <body>
     <div class="box">
       <h2>Sign Up</h2>
-      <form action="/action_page.php">
+      <form action="signup.js">
         <input
           class="textField"
           type="text"
@@ -30,8 +30,7 @@
           name="password"
           placeholder="Confirm Password"
         />
-        
-        <input class="button" type="submit" value="Submit" />
+        <input class="button" type="submit" value="Submit" onclick="submi()" />
         <p>
           Already have an account?
           <a href="https://www.w3schools.com/" target="_blank">Login</a>
