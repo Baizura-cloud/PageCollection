@@ -1,8 +1,5 @@
 body {
-  background-image: linear-gradient(rgb(2, 140, 194), rgb(3, 128, 128));
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-color: #1A3636;
 }
 .button {
   float: none;
@@ -10,7 +7,7 @@ body {
   border-width: 0px;
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background-color: rgb(17, 164, 190);
+  background-color: #D6BD98;
   padding: 10px;
   text-align: center;
   width: 100%;
@@ -25,7 +22,7 @@ body {
   
 }
 .box {
-  background-color: rgb(255, 254, 254);
+  background-color: #677D6A;
   padding: 50px;
   border-radius: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -51,7 +48,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: 2px solid #ccc; /* Adjust the border style as needed */
+  border-bottom: 2px solid #020202; /* Adjust the border style as needed */
   font-size: small;
   margin: 10px;
 }
@@ -79,4 +76,17 @@ a:not(:hover) {
   content: "";
   clear: both;
   display: table;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; 
+}
+.icon img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  object-fit: cover;
 }

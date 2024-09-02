@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Home</title>
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
@@ -10,108 +11,296 @@
       <p>Admin Dashboard.</p>
     </div>
 
+    <div class="topnav">
+      <a href="#">Home</a>
+      <a href="#">Account</a>
+    </div>
+
     <!-- The flexible grid (content) -->
+    <!-- Card -->
     <div class="row">
       <div class="card">
         <div class="cardContent" style="height: 100px">
-          <p></p>
+          <div class="icon">
+            <img src="icon/bellConceirge.svg" />
+            <h2>Total Dish: 135</h2>
+          </div>
         </div>
-        <br />
       </div>
       <div class="card">
-        <div class="cardContent" style="height: 100px">Image</div>
-        <br />
-      </div>
-      <div class="card">
-        <div class="cardContent" style="height: 100px">Image</div>
+        <div class="cardContent" style="height: 100px">
+          <div class="icon">
+            <img src="icon/box.svg" />
+            <h2>Total Order: 118</h2>
+          </div>
+        </div>
         <br />
       </div>
       <div class="card">
         <div class="cardContent" style="height: 100px">
-          <img class="avatar" src="icon/chartLine.svg" /><p>Total Profit</p>
-            <h2>12,000</h2>
+          <div class="icon">
+            <img src="icon/upwardLine.svg" />
+            <h2>Total Sale: 1,380</h2>
+          </div>
         </div>
         <br />
       </div>
+      <div class="card">
+        <div class="cardContent" style="height: 100px">
+          <div class="icon">
+            <img src="icon/chartLine.svg" />
+            <h2>Total Profit: 12,250</h2>
+          </div>
+        </div>
+        <br />
+      </div>
+
+      <!-- List of customer & orders -->
+
       <div class="side">
         <h3>Customers</h3>
         <p>Recent customers</p>
-        <div class="fakeimg" style="height: 60px">Image</div>
+        <div class="customer" style="height: 70px">
+          <div class="user-avatar">
+            <img src="https://picsum.photos/id/64/200/300" />
+            <p>Natalie Smores</p>
+          </div>
+        </div>
         <br />
-        <div class="fakeimg" style="height: 60px">Image</div>
+        <div class="customer" style="height: 70px">
+          <div class="user-avatar">
+            <img src="https://picsum.photos/id/65/200/300" />
+            <p>Alice John</p>
+          </div>
+        </div>
         <br />
-        <div class="fakeimg" style="height: 60px">Image</div>
+        <div class="customer" style="height: 70px">
+          <div class="user-avatar">
+            <img src="https://picsum.photos/id/342/200/300" />
+            <p>Maya Kylie</p>
+          </div>
+        </div>
+        <br />
+        <div class="customer" style="height: 70px">
+          <div class="user-avatar">
+            <img src="https://picsum.photos/id/375/200/300" />
+            <p>Caleb George</p>
+          </div>
+        </div>
       </div>
       <div class="main">
         <h2>Orders</h2>
         <table id="customers">
           <tr>
-            <th>Company</th>
-            <th>Contact</th>
-            <th>Country</th>
+            <th>Order Item</th>
+            <th>Server</th>
+            <th>Order Id</th>
+            <th>Status</th>
           </tr>
           <tr>
+            <td>Lunch Combo A, Kids Meal</td>
             <td>Alfreds Futterkiste</td>
-            <td>Maria Anders</td>
-            <td>Germany</td>
+            <td>#101</td>
+            <td>Pending</td>
           </tr>
           <tr>
-            <td>Berglunds snabbköp</td>
-            <td>Christina Berglund</td>
-            <td>Sweden</td>
+            <td>Lunch Combo B, Lunch Combo D, 2 Beer</td>
+            <td>George Hanks</td>
+            <td>#112</td>
+            <td>Pending</td>
           </tr>
           <tr>
-            <td>Centro comercial Moctezuma</td>
-            <td>Francisco Chang</td>
-            <td>Mexico</td>
+            <td>Lunch Combo D, Tiramitsu (Slice)</td>
+            <td>Alfreds Futterkiste</td>
+            <td>#121</td>
+            <td>Pending</td>
           </tr>
           <tr>
-            <td>Ernst Handel</td>
-            <td>Roland Mendel</td>
-            <td>Austria</td>
+            <td>2 Kids Meal, 2 Lunch Combo C</td>
+            <td>Fredo Knicks</td>
+            <td>#199</td>
+            <td>Complete</td>
           </tr>
           <tr>
-            <td>Island Trading</td>
-            <td>Helen Bennett</td>
-            <td>UK</td>
+            <td>2 Beers, Cheese Sticks, Lunch Combo A</td>
+            <td>Alfreds Futterkiste</td>
+            <td>#105</td>
+            <td>Complete</td>
           </tr>
           <tr>
-            <td>Königlich Essen</td>
-            <td>Philip Cramer</td>
-            <td>Germany</td>
+            <td>1 Kids Meal, 2 Lunch Combo D</td>
+            <td>Fredo Knicks</td>
+            <td>#251</td>
+            <td>Complete</td>
           </tr>
           <tr>
-            <td>Laughing Bacchus Winecellars</td>
-            <td>Yoshi Tannamuri</td>
-            <td>Canada</td>
+            <td>Family Lunch Combo A, 4 Beer</td>
+            <td>George Hanks</td>
+            <td>#212</td>
+            <td>Complete</td>
           </tr>
           <tr>
-            <td>Magazzini Alimentari Riuniti</td>
-            <td>Giovanni Rovelli</td>
-            <td>Italy</td>
+            <td>Family Lunch Combo B, 4 Beer</td>
+            <td>George Hanks</td>
+            <td>#222</td>
+            <td>Complete</td>
           </tr>
           <tr>
-            <td>North/South</td>
-            <td>Simon Crowther</td>
-            <td>UK</td>
-          </tr>
-          <tr>
-            <td>Paris spécialités</td>
-            <td>Marie Bertrand</td>
-            <td>France</td>
+            <td>Lunch Combo A, Family Lunch Combo B</td>
+            <td>Alfreds Futterkiste</td>
+            <td>#111</td>
+            <td>Complete</td>
           </tr>
         </table>
+      </div>
+      <div class="card">
         <br />
-        <h2>TITLE HEADING</h2>
-        <h5>Title description, Sep 2, 2017</h5>
-        <div class="fakeimg" style="height: 200px">Image</div>
-        <p>Some text..</p>
-        <p>
-          Sunt in culpa qui officia deserunt mollit anim id est laborum
-          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-          exercitation ullamco.
-        </p>
+
+        <!-- Menu gallery -->
+
+        <h2>Popular Items</h2>
+        <p>Frequent orders by the customers</p>
+        <div class="fakeimg" style="height: auto">
+          <div class="gallery">
+            <a
+              target="_blank"
+              href="https://www.foodiesfeed.com/wp-content/uploads/2023/08/crispy-spicy-chicken-wings.jpg"
+            >
+              <img
+                src="https://www.foodiesfeed.com/wp-content/uploads/2023/08/crispy-spicy-chicken-wings.jpg"
+                alt="Chicken Wings"
+                width="600"
+                height="400"
+              />
+            </a>
+            <div class="desc">
+              Indulge in our mouthwatering chicken wings, expertly fried to
+              perfection and coated in a tangy, spicy sauce.
+            </div>
+          </div>
+
+          <div class="gallery">
+            <a
+              target="_blank"
+              href="https://www.foodiesfeed.com/wp-content/uploads/2023/05/pizza-salami.jpg"
+            >
+              <img
+                src="https://www.foodiesfeed.com/wp-content/uploads/2023/05/pizza-salami.jpg"
+                alt="Pizza"
+                width="600"
+                height="400"
+              />
+            </a>
+            <div class="desc">
+              A classic Italian dish, pizza consists of a thin, flatbread base
+              topped with tomato sauce, cheese, and various toppings like
+              pepperoni, mushrooms, onions, and olives.
+            </div>
+          </div>
+
+          <div class="gallery">
+            <a
+              target="_blank"
+              href="https://www.foodiesfeed.com/wp-content/uploads/2023/06/xiaolongbao-dumplings.jpg"
+            >
+              <img
+                src="https://www.foodiesfeed.com/wp-content/uploads/2023/06/xiaolongbao-dumplings.jpg"
+                alt="Dumplings"
+                width="600"
+                height="400"
+              />
+            </a>
+            <div class="desc">
+              Dumplings are small, dough-filled pockets that can be boiled,
+              steamed, fried, or baked.
+            </div>
+          </div>
+
+          <div class="gallery">
+            <a
+              target="_blank"
+              href="https://www.foodiesfeed.com/wp-content/uploads/2023/12/seafood-soup.jpg"
+            >
+              <img
+                src="https://www.foodiesfeed.com/wp-content/uploads/2023/12/seafood-soup.jpg"
+                alt="Seafood Soup"
+                width="600"
+                height="400"
+              />
+            </a>
+            <div class="desc">A hearty and comforting soup filled with a variety of fresh seafood, such as shrimp, fish, and squid. </div>
+          </div>
+          <div class="gallery">
+            <a
+              target="_blank"
+              href="https://www.foodiesfeed.com/wp-content/uploads/2023/05/juicy-cheeseburger.jpg"
+            >
+              <img
+                src="https://www.foodiesfeed.com/wp-content/uploads/2023/05/juicy-cheeseburger.jpg"
+                alt="Burger3"
+                width="600"
+                height="400"
+              />
+            </a>
+            <div class="desc">
+              Common toppings include cheese, lettuce, tomato, onion, pickles,
+              ketchup, mustard, and mayonnaise.
+            </div>
+          </div>
+
+          <div class="gallery">
+            <a
+              target="_blank"
+              href="https://www.foodiesfeed.com/wp-content/uploads/2023/08/grilled-crispy-pork-with-rice.jpg"
+            >
+              <img
+                src="https://www.foodiesfeed.com/wp-content/uploads/2023/08/grilled-crispy-pork-with-rice.jpg"
+                alt="Grilled Pork with Rice"
+                width="600"
+                height="400"
+              />
+            </a>
+            <div class="desc">A flavorful and satisfying dish featuring succulent grilled pork served over fragrant rice.
+
+            </div>
+          </div>
+
+          <div class="gallery">
+            <a
+              target="_blank"
+              href="https://www.foodiesfeed.com/wp-content/uploads/2024/01/best-burger-in-town.jpg"
+            >
+              <img
+                src="https://www.foodiesfeed.com/wp-content/uploads/2024/01/best-burger-in-town.jpg"
+                alt="Burger2"
+                width="600"
+                height="400"
+              />
+            </a>
+            <div class="desc">
+              Common toppings include cheese, lettuce, tomato, onion, pickles,
+              ketchup, mustard, and mayonnaise.
+            </div>
+          </div>
+
+          <div class="gallery">
+            <a
+              target="_blank"
+              href="https://www.foodiesfeed.com/wp-content/uploads/2023/06/burger-with-melted-cheese.jpg"
+            >
+              <img
+                src="https://www.foodiesfeed.com/wp-content/uploads/2023/06/burger-with-melted-cheese.jpg"
+                alt="Burger"
+                width="600"
+                height="400"
+              />
+            </a>
+            <div class="desc">
+              Common toppings include cheese, lettuce, tomato, onion, pickles,
+              ketchup, mustard, and mayonnaise.
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
