@@ -14,7 +14,8 @@ body {
   margin: 10px;
 }
 .button.google{
-  background-color: rgb(246, 248, 248);
+  background-color: #dd4b39;
+  color: antiquewhite;
 }
 .button.facebook{
   background-color: rgb(84, 75, 207);
