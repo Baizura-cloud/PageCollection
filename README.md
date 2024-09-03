@@ -4,13 +4,15 @@
 1. Login Page
 
 
-![login](https://github.com/user-attachments/assets/9766f935-6db1-42fb-8558-da334396e5ce)
+![image](https://github.com/user-attachments/assets/c2270673-85db-48c6-b726-cd276fb4e441)
+
 
 2. Sign Up Page
 
 
 
-![signup](https://github.com/user-attachments/assets/d3a6a9cd-fb38-40b8-bf2f-797893183b2a)
+![image](https://github.com/user-attachments/assets/4dacbd7a-8fa1-428a-85ce-d7da050711bd)
+
 
 
 3. Home Page
@@ -18,3 +20,9 @@
 
 
 ![home](https://github.com/user-attachments/assets/e01a5201-05d8-4aa5-92af-70278e0a2311)
+
+
+4. Account Page
+
+
+![image](https://github.com/user-attachments/assets/6200302f-ef04-4213-8645-94262a2ebe08)
